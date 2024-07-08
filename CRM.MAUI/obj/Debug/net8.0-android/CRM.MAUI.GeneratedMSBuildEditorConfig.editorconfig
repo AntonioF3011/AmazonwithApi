@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CRM.MAUI
+build_property.ProjectDir = C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.MAUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/Views/CartView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.Views.CartView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CartView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CartView.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/Views/DescriptionForFunctionality.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.Views.DescriptionForFunctionality.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DescriptionForFunctionality.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DescriptionForFunctionality.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/Views/DescriptionView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.Views.DescriptionView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DescriptionView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DescriptionView.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/Views/PaymentConfigurationView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.Views.PaymentConfigurationView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PaymentConfigurationView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PaymentConfigurationView.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/Views/ProductManagementView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.Views.ProductManagementView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductManagementView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductManagementView.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/Views/ProductView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.Views.ProductView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductView.xaml
+
+[C:/Users/antof/OneDrive/Desktop/C\#/Assg3 Nuevo/ConsoleApp/CRM.MAUI/Views/ShopView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CRM.MAUI.Views.ShopView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ShopView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ShopView.xaml

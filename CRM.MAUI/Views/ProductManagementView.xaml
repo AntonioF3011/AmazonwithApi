@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRM.MAUI.Views.ProductManagementView"
+             Title="Amazon Inventory Management 🔧"
+             NavigatedTo="ContentPage_NavigatedTo"
+             >
+    <ScrollView>
+        
+    
+    <VerticalStackLayout>
+
+        <Grid Margin="0,0,0,10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Text="Id" 
+                   FontAttributes="Bold" 
+                   FontSize="Subtitle" 
+                   TextDecorations="Underline"
+                   HorizontalOptions="Center" />
+            <Label Grid.Column="1" Text="Name" 
+                   FontAttributes="Bold" 
+                   FontSize="Subtitle" 
+                   TextDecorations="Underline"
+                   HorizontalOptions="Center" />
+            <Label Grid.Column="2" 
+                   Text="Price" 
+                   FontAttributes="Bold" 
+                   FontSize="Subtitle" 
+                   TextDecorations="Underline"
+                   HorizontalOptions="Center" />
+            <Label Grid.Column="3" 
+                   Text="Quantity" 
+                   FontAttributes="Bold" 
+                   FontSize="Subtitle" 
+                   TextDecorations="Underline"
+                   HorizontalOptions="Center" />
+            <Label Grid.Column="4" 
+                   Text="BOGO" 
+                   FontAttributes="Bold" 
+                   FontSize="Subtitle" 
+                   TextDecorations="Underline"
+                   HorizontalOptions="Center" />
+            
+            <Label Grid.Column="5" 
+                   Text="" />
+            <Label Grid.Column="6" 
+                   Text="" />
+        </Grid>
+
+        <ListView ItemsSource="{Binding Products}"
+                  SelectedItem="{Binding SelectedProduct}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="0,10,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                
+                                
+                            </Grid.ColumnDefinitions>
+                            
+                            <Label Grid.Column="0" Text="{Binding Id}" 
+                                   Margin="10,0,0,10"
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center"/>
+                            
+                            <Label Grid.Column="1" Text="{Binding Name}" 
+                                   Margin="10,0,0,10"
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center" />
+                            <Label Grid.Column="2" Text="{Binding DisplayPrice}" 
+                                   Margin="10,0,0,10"
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center"/>
+                            <Label Grid.Column="3" Text="{Binding Quantity}" 
+                                   Margin="10,0,0,10"
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center" />
+                            <!-- buyonegetone and binding label -->
+                            <Label Grid.Column="4" Text="{Binding BogoManagementStatus}" 
+                                   Margin="10,0,0,10"
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center" />
+                            
+
+                            <Button Grid.Column="5" Text="Edit"
+                                    Margin="0,0,0,10"
+                                    Command="{Binding Path=EditCommand}"
+                                    CommandParameter="{Binding}"
+                                    TextColor="Snow"
+                                    
+                                    BackgroundColor="#232F3E"/>
+                            <Button Grid.Column="8" Text="Delete"
+                                    Command="{Binding Path=DeleteCommand}"
+                                    CommandParameter="{Binding}"
+                                    Margin="10,0,0,10"
+                                    Clicked="InlineDelete_Clicked"
+                                   
+                                    BackgroundColor="#232F3E"
+                                    TextColor="Snow"/>
+
+                            
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Text="Add" 
+                Clicked="AddClicked" 
+                BackgroundColor="DarkSalmon"
+                 Margin="10"/>
+        <Button Text="⚙️" TextColor="Snow"  
+                BackgroundColor="#232F3E"
+                
+                Margin="10"
+                Clicked="PaymentConfigurationClicked"/>
+        <Button Text="Go Home"  TextColor="Black" HorizontalOptions="Start" 
+                Clicked="HomeClicked" BackgroundColor="DarkSalmon"
+                Margin="10"
+                />
+        
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
