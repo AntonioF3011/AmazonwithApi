@@ -1,1 +1,0 @@
-C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.MAUI\CRM.MAUI.csproj;x64
