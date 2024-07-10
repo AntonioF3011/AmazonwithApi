@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRM.MAUI.Views.DescriptionView"
+             Title=""
+             NavigatedTo="ContentPage_NavigatedTo"
+             BackgroundColor="AliceBlue">
+    <ScrollView>
+  
+    <VerticalStackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="40"/>
+                
+                </Grid.RowDefinitions>
+            <Label BackgroundColor="#131A22" Grid.Row="0" Grid.ColumnSpan="2"/>
+            <Label BackgroundColor="#232F3E" Grid.Row="1" Grid.ColumnSpan="2"/>
+            <Button
+                VerticalOptions="Start"
+                 Grid.Row="0"
+                 Grid.Column="0"
+                 HorizontalOptions="Start"
+                 FontSize="Large"
+                 FontFamily="Roboto"
+                 TextColor="White"
+                 Text="amazon"
+                 Clicked="BackHomeClicked"
+                 BackgroundColor="Transparent"/>
+
+                <Button Grid.Column="1" Grid.Row="0"
+                    Margin="0,0,0,0"
+                    Text="🛒Cart" 
+                    TextColor="DarkSalmon"
+                    HorizontalOptions="End"
+                    VerticalOptions="FillAndExpand"
+                    FontSize="20"
+                    BackgroundColor="Transparent" 
+                    Clicked="ShopClicked"/>
+            </Grid>
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+
+            </Grid.RowDefinitions>
+
+
+
+           
+            <Label Grid.Column="1" Grid.Row="2" Text="{Binding Name}"  Margin="10,10,0,10"  TextColor="Black" FontSize="Large" FontFamily="Arial"/>
+            <Label Grid.Column="1" Grid.Row="6" Text="{Binding DisplayPrice}"  Margin="10,10,0,10" TextColor="Black"/>
+            <Label Grid.Column="1" Grid.Row="4" Text="{Binding DisplayQuantity}"  Margin="10,10,0,10" TextColor="DarkRed" />
+            <Label Grid.Column="1" Grid.Row="5" Text="{Binding OfferStatusDescription}"  Margin="10,0,0,10" TextColor="Black" />
+            <Image Source="{Binding ImageName}" Grid.RowSpan="11" Grid.Column="0" 
+                        Aspect="AspectFit" HeightRequest="300" 
+                        Margin="20"/>
+            <Label Grid.Column="1" Grid.Row="3" Text="{Binding Description}" Margin="10,0,0,10"  FontAttributes="Italic" TextColor="Black"/>
+           
+        </Grid>
+            <CollectionView 
+                 ItemsSource="{Binding Products}"
+                 SelectionMode="Single"
+                 >
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="4"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Frame BorderColor="AliceBlue" CornerRadius="0" Margin="10" BackgroundColor="#e3e6e6"  >
+                            <StackLayout Padding="10" Margin="30">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Text="{Binding Name}" Grid.Row="1" Grid.ColumnSpan="4"
+                            FontFamily="Arial"
+                            TextColor="Black"
+                            Margin="0,0,0,10"
+                           
+                            FontSize="Medium"
+                            HorizontalOptions="Center"/>
+
+
+
+                                    <Image Source="{Binding ImageName}" Grid.Row="0" Grid.ColumnSpan="4" 
+                                Aspect="AspectFit" HeightRequest="160" 
+                                Margin="0,0,0,20"/>
+                                    <Label />
+                                    <Label Text="{Binding DisplayQuantity}" Grid.Row="2" Grid.ColumnSpan="4"
+                                TextColor="Black"
+                            FontSize="Default"
+                            HorizontalOptions="Center"/>
+                                    <Label Text="{Binding DisplayPrice}" Grid.Row="3" Grid.ColumnSpan="4"
+                                TextColor="Black"
+                                
+                            FontSize="Default"
+                            HorizontalOptions="Center"/>
+
+                                    <Button Text="?" Grid.RowSpan="3" Grid.ColumnSpan="4"
+                                 TextColor="Transparent"
+                                 FontSize="Large"
+                                 BackgroundColor="Transparent"
+                                 Clicked="DescriptionClicked"/>
+
+
+                                    <Button Text="+" Grid.Row="3" Grid.ColumnSpan="4"
+                                 Margin="0,50"
+                                 
+                                 HorizontalOptions="Center"
+                                 BorderColor="DarkSalmon"
+                                 TextColor="DarkSalmon"
+                                 FontSize="Small"
+                                 BackgroundColor="Transparent"
+                                 Clicked="AddToCartClicked"/>
+                                </Grid>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

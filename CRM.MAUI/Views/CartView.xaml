@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CRM.MAUI.Views.CartView"
+             Title=""
+             BackgroundColor="AliceBlue">
+    <ScrollView>
+        
+    
+    <VerticalStackLayout>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70"/>
+                    <RowDefinition Height="40"/>
+
+                </Grid.RowDefinitions>
+                <Label BackgroundColor="#131A22" Grid.Row="0" Grid.ColumnSpan="2"/>
+                <Label BackgroundColor="#232F3E" Grid.Row="1" Grid.ColumnSpan="2"/>
+                <Button
+                VerticalOptions="Start"
+                 Grid.Row="0"
+                 Grid.Column="0"
+                 HorizontalOptions="Start"
+                 FontSize="Large"
+                 FontFamily="Roboto"
+                 TextColor="White"
+                 Text="amazon"
+                 Clicked="BackClicked"
+                 BackgroundColor="Transparent"/>
+
+                <Button Grid.Column="1" Grid.Row="0"
+                    Margin="0,0,0,0"
+                    Text="↻🛒Cart" 
+                    TextColor="DarkSalmon"
+                    HorizontalOptions="End"
+                    VerticalOptions="FillAndExpand"
+                    FontSize="20"
+                    BackgroundColor="Transparent" 
+                    Clicked="ShopClicked"/>
+            </Grid>
+            <!--begining of bill stuff-->
+            <ListView ItemsSource="{Binding ProductsInCart}" BackgroundColor="#e3e6e6" SelectionMode="Single">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                            <Grid >
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition />
+                                        
+
+                                    </Grid.ColumnDefinitions>
+
+
+                                    <Label Grid.Column="0" Text="{Binding Name}" 
+                                       FontSize="Default"
+                                       TextColor="Black"
+                                        Margin="10"
+                                           BackgroundColor="#e3e6e6"
+                                        VerticalOptions="Center"
+                                       />
+                                    <Label Grid.Column="0" Text="{Binding Price, StringFormat='{0:C}'}"
+                                        VerticalOptions="Center"
+                                       FontSize="Default" 
+                                       BackgroundColor="#e3e6e6"
+                                           
+                                       HorizontalOptions="End"
+                                       TextColor="Black"
+                                       Margin="10"
+                                       TextDecorations="Underline"
+                                      />
+                                <Button  Grid.Column="1" Text="Remove"
+                                        VerticalOptions="Center"
+                                        Clicked="RemoveFromCart_Clicked"
+                                        HorizontalOptions="Center"
+                                        BorderColor="DarkSalmon"
+                                        TextColor="DarkSalmon"
+                                        Margin="10"
+                                        BackgroundColor="Transparent"
+                                        />
+
+                            </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+           
+        
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+       
+
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition />
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="0" Grid.Row="0" Text="BuyOne-GetOne" 
+                   TextColor="Black"
+                    FontSize="Default"
+                   
+                    Margin="10"/>
+            <Label  Grid.Column="0" Grid.Row="0" Text="{Binding Disccount, StringFormat='{0:C}'}" 
+                    HorizontalOptions="End"
+                    FontSize="Default"
+                    TextColor="Red"
+                    Margin="10"
+                     />
+            <Label  Grid.Column="0" Grid.Row="1"
+                    BackgroundColor="DarkSalmon"
+                    TextColor="DarkSalmon"/>
+           
+
+            <!--Subtotal-->
+            <Label  Grid.Column="0"   Grid.Row="2"
+                    TextColor="Black"
+                    
+                    Text="Subtotal:" FontSize="Default" 
+                    HorizontalOptions="Start" Margin="10" />
+            <Label  Grid.Column="0"  Grid.Row="2"
+                    TextColor="Black"
+                    
+                    Text="{Binding SubtotalPrice, StringFormat='{0:C}'}" FontSize="Default" 
+                    HorizontalOptions="End" Margin="10" />
+            <!--tax-->
+            <Label   Grid.Column="0"   Grid.Row="3"
+                     TextColor="Black"
+                     
+                     Text="Tax %"
+                     HorizontalOptions="Start" 
+                     VerticalOptions="Center"
+                     Margin="10,0,0,0"
+                     />
+            <Label   Grid.Column="0"   Grid.Row="3"
+                   TextColor="Black"
+                     HorizontalOptions="End"
+                     Text="{Binding DisplayTax}"
+                     Margin="10"
+                     
+                     />
+            <!--Total-->
+            <Label   Grid.Column="0"   Grid.Row="4"
+                     TextColor="Black"
+                     
+                     Text="Total:"
+                     FontAttributes="Bold"
+                     HorizontalOptions="Start" 
+                     VerticalOptions="Center"
+                    Margin="10"
+                     />
+            <Label   Grid.Column="0"   Grid.Row="4"
+                     TextColor="Black"
+                     FontAttributes="Bold"
+                     Margin="10"
+                     TextDecorations="Underline"
+                     HorizontalOptions="End"
+                     Text="{Binding TotalPrice, StringFormat='{0:C}'}"
+                     />
+            
+            <!--Indicate the current cart in the billing process-->
+                <Label  Grid.Column="1" Grid.RowSpan="4"
+                   Text="{Binding DisplayCartIdBill}"
+                   HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       FontSize="Title"
+                       TextColor="Black"/>
+              
+                <!--end of bill stuff-->
+
+                <Button Grid.Column="1" Grid.Row="4"
+                        Text="Complete Purchase"
+                        VerticalOptions="Center"
+                        TextColor="AliceBlue"
+                        FontFamily="Arial"
+                        Clicked="Checkout_Clicked"
+                        BackgroundColor="DarkSalmon"
+                        Margin="10"/>
+            </Grid>
+
+        <!--List of carts stuff-->
+        <Label Margin="0,60,0,10"
+                VerticalOptions="Start"
+                HorizontalOptions="Center"
+                Text="Your Carts"
+                TextColor="Black"
+                FontSize="Medium"
+                FontFamily="Arial"/>
+
+
+        <ListView  ItemsSource="{Binding Carts}" VerticalOptions="Center" BackgroundColor="#e3e6e6">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Label Grid.Column="0" TextColor="Black"
+                                HorizontalOptions="Start"
+                                FontSize="Medium"
+                                Margin="10"
+                                Text="{Binding DisplayCartId}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+            <Button Margin="10"
+                    BackgroundColor="#232F3E"
+                    TextColor="AliceBlue"
+                    Text="Add Cart"
+                    Clicked="AddCart_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

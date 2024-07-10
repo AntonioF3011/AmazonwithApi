@@ -1,0 +1,48 @@
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.deps.json
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.pdb
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.AssemblyInfoInputs.cache
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.AssemblyInfo.cs
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.csproj.CoreCompileInputs.cache
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\obj\Debug\net8.0\refint\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.pdb
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\obj\Debug\net8.0\ref\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.sourcelink.json
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.deps.json
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.pdb
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.AssemblyInfoInputs.cache
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.AssemblyInfo.cs
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.csproj.CoreCompileInputs.cache
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.sourcelink.json
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\obj\Debug\net8.0\refint\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.pdb
+C:\Users\antof\OneDrive\Desktop\C#\Assg3\ConsoleApp\CRM.Library\obj\Debug\net8.0\ref\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.deps.json
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.pdb
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.AssemblyInfoInputs.cache
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.AssemblyInfo.cs
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.csproj.CoreCompileInputs.cache
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.sourcelink.json
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\obj\Debug\net8.0\refint\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.pdb
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 - copia\ConsoleApp\CRM.Library\obj\Debug\net8.0\ref\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.deps.json
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\bin\Debug\net8.0\CRM.Library.pdb
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.AssemblyInfoInputs.cache
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.AssemblyInfo.cs
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.csproj.CoreCompileInputs.cache
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.sourcelink.json
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\obj\Debug\net8.0\refint\CRM.Library.dll
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\obj\Debug\net8.0\CRM.Library.pdb
+C:\Users\antof\OneDrive\Desktop\C#\Assg3 Nuevo\ConsoleApp\CRM.Library\obj\Debug\net8.0\ref\CRM.Library.dll
